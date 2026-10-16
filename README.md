@@ -37,7 +37,7 @@ flowchart LR
 This repository is configured to deploy the following environment based on the values in `terraform.tfvars`:
 
 ```hcl
-subscription_id = "cec54560-6b89-4061-8be3-036610dd4326"
+subscription_id = "XXXX"
 resource_group_name = "observability-rg"
 location = "westus"
 environment = "dev"
