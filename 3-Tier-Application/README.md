@@ -61,7 +61,7 @@ To check the secret name without printing its value:
 
 ```sh
 az keyvault secret show \
-  --vault-name kvlearningvijaydev \
+  --vault-name keyvaultobservabilitydev \
   --name DB-PASSWORD \
   --query name \
   --output tsv

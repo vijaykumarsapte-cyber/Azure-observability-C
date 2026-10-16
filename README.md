@@ -38,23 +38,23 @@ This repository is configured to deploy the following environment based on the v
 
 ```hcl
 subscription_id = "cec54560-6b89-4061-8be3-036610dd4326"
-resource_group_name = "learning-vijay-rg"
+resource_group_name = "observability-rg"
 location = "westus"
 environment = "dev"
 
-vnet_name = "learning-vijay-vnet"
+vnet_name = "observability-vnet"
 vnet_address_space = "10.0.0.0/16"
 aks_subnet_prefix = "10.0.1.0/24"
 database_subnet_prefix = "10.0.2.0/24"
 appgw_subnet_prefix = "10.0.4.0/24"
 
-aks_cluster_name = "learning-vijay-aks"
-aks_dns_prefix = "learning-vijay-aks"
+aks_cluster_name = "observability-aks"
+aks_dns_prefix = "observability-aks"
 aks_node_count = 2
 aks_vm_size = "Standard_D2s_v7"
 
-acr_name = "learningvijayacr"
-key_vault_name = "kvlearningvijaydev"
+acr_name = "observabilityacrwestusnodjs"
+key_vault_name = "keyvaultobservabilitydev"
 ```
 
 ## Project structure
